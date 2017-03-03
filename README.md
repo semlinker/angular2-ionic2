@@ -1,6 +1,6 @@
-### EXE-APP-V2 项目开发说明文档
+### Ionic 2 项目开发规范
 
-本项目采用 [IONIC 2.0](http://www.ionicframework.com/) 框架进行跨平台混合应用的开发
+项目采用 [IONIC 2.0](http://www.ionicframework.com/) 框架进行跨平台混合应用的开发
 
 #### 一、开发规范
 
