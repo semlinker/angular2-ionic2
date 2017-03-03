@@ -1,5 +1,5 @@
 ### Ionic 2 项目开发说明
-开发框架 [IONIC 2.0](http://www.ionicframework.com/) 
+项目采用的开发框架是 [IONIC 2.0](http://www.ionicframework.com/) 
 
 #### 一、开发规范
 
