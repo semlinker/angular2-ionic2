@@ -31,7 +31,9 @@
   - icon  ——  存放 `icon` 文件
   - images  ——  存放项目图片资源文件
   - lib  ——   存放项目依赖的第三方资源库
-- core  ——   存放核心模块
+- core  ——   存放核心模块如`ApiService`、`AuthService` 等
+- features - 存放功能模块
+- shared - 存放功能模块中共享的组件、服务或管道
 - pages —— 存放各个模块的 `html` 模板文件及 `ts`业务逻辑文件，根据模块建立对应的目录，如登录模块位于`pages/login` 文件下
 - theme  ——  存放各个租户主题样式
 
@@ -161,7 +163,7 @@ ionic run ios	# 连接真机后直接运行
 - ionic serve
   - ionic serve —lab 在浏览器中同时预览 iOS、Android、Window 平台
 
-2. 3 Visual Studio Code 常用插件
+2.3 Visual Studio Code 常用插件
 
 - Auto Import
 - Debugger for Chrome
