@@ -1,5 +1,4 @@
-### Ionic 2 项目开发规范
-
+### Ionic 2 项目开发说明
 项目采用 [IONIC 2.0](http://www.ionicframework.com/) 框架进行跨平台混合应用的开发
 
 #### 一、开发规范
