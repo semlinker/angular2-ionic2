@@ -1,184 +1,100 @@
-### Ionic 2 项目开发说明
-项目采用的开发框架是 [IONIC 2.0](http://www.ionicframework.com/) 
+#### Angular 2 & Ionic 2 资料汇总
 
-#### 一、开发规范
+![](https://raw.githubusercontent.com/tigercosmos/webImg/master/angular-2-ionic-2-home.jpg)
 
-文件夹命名方式: `platform-browser、language-service`
+**Angular 2 - 中文文章**
 
-文件命名方式统一使用小写英文单词，多个单词使用下滑线 (`_`) 进行分隔, 如 `common_module.ts`
-
-1.1 命名规范  
-
-- 控制器命名方式，文件名命名 `nav_controller.ts`,  class命名  `NavController`
-- 服务命名方式，文件命名 `api_service.ts` , class命名  `ApiService`  
-- 组件命名方式，文件命名 `app_component.ts` , class命名 `AppComponent`。组件的输入属性和输出属性使用驼峰方式命名：`@Iutput() tabTitle`
-- 管道命名方式，文件命名`async_pipe.ts` , class 命名`AsyncPipe`
-- 指令命名方式，文件命名 `ng_class.ts`, class 命名 `NgClass`。指令(组件)的 `selector` 使用 `exe-` 前缀方式命名。
-- HTML文件命名方式，以小写英文单词命名，多个单词之间用"-"分隔,如`exam-card.html`
-- TypeScript文件命名方式，以小写英文单词命名，多个单词之间用"_"分隔，如`user_service.ts`
-- SCSS文件命名方式，以下划线开头+小写英文单词，各个单词之间使用"-"分隔，如`_nav-bar.scss`
-
-1.2 目录规范  
-
-项目开发的根目录为 `src `目录:  
-
-* app  ——  存放项目入口文件，如 `app_module.ts`
-
-- assets —— 存放项目资源文件
-  - config —— 存放系统配置文件，如`API`服务器地址
-  - i18n ——  存放语言包，模块(组件)相关的语言包存放于各自模块(组件)文件夹内
-  - icon  ——  存放 `icon` 文件
-  - images  ——  存放项目图片资源文件
-  - lib  ——   存放项目依赖的第三方资源库
-- core  ——   存放核心模块如`ApiService`、`AuthService` 等
-- features - 存放功能模块
-- shared - 存放功能模块中共享的组件、服务或管道
-- pages —— 存放各个模块的 `html` 模板文件及 `ts`业务逻辑文件，根据模块建立对应的目录，如登录模块位于`pages/login` 文件下
-- theme  ——  存放各个租户主题样式
-
-1.3 Class文件规范
-
-import文件的顺序，`@angular/*`、`ionic-angular` 、第三方依赖库、项目中依赖文件；属性名和方法名称统一使用驼峰命名，属性名必须设定对应的参数类型，同时方法也要设置输入参数类型和返回对象的类型。每个方法统一使用`Document This` 进行方法功能注释。具体示例如下：
-
-```typescript
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-
-import { ApiService } from './api_service';
-import { AppConfig } from '../config/app_config';
-import { aesEncrypt } from '../util/lang';
-import { LoginRequestArgs } from './interfaces';
-import { Platform } from './enums';
-
-@Injectable()
-export class AuthService {
-
-    ssoUrl: string; // 登录URL地址
-
-    verifycodeUrl: string; // 验证码URL地址
-
-    constructor(public appConfig: AppConfig, public apiService: ApiService) {
-        this.ssoUrl = appConfig.getConfig('sso');
-        this.verifycodeUrl = appConfig.getConfig('verifycode');
-    }
-
-    /**
-     * 验证Token是否有效,支持版本参数
-     *
-     * @param {string} ticket
-     * @param {string} version
-     * @returns {Observable<any>}
-     *
-     * eg:
-     * validateToken("123456") => /api/Ticket?id=123456&info=1
-     * validateToken("123456", "V2") => /api/Ticket/V2?id=123&info=1
-     *
-     * @memberOf AuthService
-     */
-    validateToken(ticket: string, version: string): Observable<any> {
-        let baseUrl = `${this.ssoUrl}/api/Ticket{version}?id=${ticket}&info=1`;
-        let validateUrl = version ?
-            baseUrl.replace("{version}", `/${version}`) :
-            baseUrl.replace("{version}", '');
-        return this.apiService.get(validateUrl);
-    }
-}
-```
-
-1.4 前端开发指南
-
-- [JavaScript编程规范](https://github.com/airbnb/javascript) 
-
-#### 二、搭建开发环境
-
-2.1 环境安装  
-
-**Windows平台**
-
-```
-npm install -g cordova ionic  
-安装ant
-系统环境变量中配置android sdk路径
-```
-
-**iOS平台**  
-
-```
-sudo npm install -g cordova ionic   
-sudo npm install -g ios-sim  
-ionic platform add ios	# 添加ios平台
-ionic build ios	# 构建ios项目  
-ionic emulate ios	# 模拟器运行  
-ionic run ios	# 连接真机后直接运行
-```
-
-模拟器运行
-
-- 支持模拟器运行
-  - npm install -g ios-sim
+* [Angular 2 模板语法与常用指令简介](https://github.com/semlinker/angular2-ionic2/issues/2)
+* [Angular 2 Provider](https://github.com/semlinker/angular2-ionic2/issues/8)
+* [Angular 2 Multi Providers](https://github.com/semlinker/angular2-ionic2/issues/5)
+* [如何解决 Angular 2中Token命名冲突](https://github.com/semlinker/angular2-ionic2/issues/3)
+* [Angular 2 forwardRef的作用 ](https://github.com/semlinker/angular2-ionic2/issues/7)
 
 
-- 列出 iOS 设备类型
-  - ios-sim showdevicetypes
-- 模拟器运行
-  - ionic emulate ios —target="iPad-Air"
-- 开启 `livereload` 和 `console`
-  - ionic emulate ios -l -c
-- 开启日志(Logging)
-  - consolelogs:	ionic emulate ios —c
-  - serverlogs: ionic emulate ios —s
-- 获取命令行信息
-  - ionic info
 
-2.2 命令行
+**Angular 2 - 优秀博客(英文)**
 
-2.2.1 初始化项目
+* [thoughtram](https://blog.thoughtram.io/all/)
+* [toddmotto](https://toddmotto.com/)
+* [nrwl](https://blog.nrwl.io/)
+* [angular-university](http://blog.angular-university.io/)
+* [scotch](https://scotch.io/tag/angular-js)
+* [medium](https://medium.com/tag/angular2)
 
-- ionic start myApp [template name] —v2
-  - template name: blank、sidemenu、tabs
-- ionic start myApp -a "My Awesome Ionic App"
-  - -a: appname
-- ionic start myApp -i com.mycompany.appname
-  - -i: app id
 
-2.2.2 定义构建的平台
 
-- ionic platform add [platform name]
-  - platform name: ios、android、windows
-- ionic platform remove [platform name]
+**Angular 2 - 视频资源**
 
-2.2.3 插件管理
+* [rangle.io](https://rangle.io/resources/tags/angular-2/)
+* [youtube - ng-conf](https://www.youtube.com/channel/UCm9iiIfgmVODUJxINecHQkA)
+* [youtube - angular-university](https://www.youtube.com/channel/UC3cEGKhg3OERn-ihVsJcb7A)
+* [youtube - ng-europe](https://www.youtube.com/channel/UCEGUP3TJJfMsEM_1y8iviSQ)
+* [youtube - ng-be](https://www.youtube.com/channel/UCnMfZM2S3QgbFvOyet5PMmQ)
 
-- ionic plugin add [plugin id] # 添加插件
-- ionic plugin rm [plugin id] # 移除插件
-- ionic plugin ls # 列出已安装的插件
 
-2.2.4 ionic 生成器
 
-- ionic g [page|component|directive|pipe|provider|tabs]
+**Angular 2 - 问答**
 
-2.2.5 预览应用程序
+* [angular2-ama-cn](https://github.com/kittencup/angular2-ama-cn)
+* [stack overflow - angular 2 topics](http://stackoverflow.com/documentation/angular2/topics)
 
-- ionic serve
-  - ionic serve —lab 在浏览器中同时预览 iOS、Android、Window 平台
 
-2.3 Visual Studio Code 常用插件
 
-- Auto Import
-- Debugger for Chrome
-- Document This
-- Material Theme
-- Rainbow Brackets
-- Beautify
-- Auto Rename Tag
-- Git History
-- HTML Snippets
-- Path Intellisense
-- Angular 2 TypeScript Snippets - Johnpapa
-- Angular 2 TypeScript Emmet
-- Ionic 2 Commands with Snippets
-- ESLint
-- Code Runner
-- HTML CSS Class Completion
-- JavaScript(ES 6) code snippets
-- REST Client
+**Angular 2 - 社交**
+
+* [Reddit](https://www.reddit.com/r/Angular2/)
+* [Hacker News](https://news.ycombinator.com/news)
+
+
+
+**Angular 2 - 工具**
+
+* [Augury(调试工具)](https://augury.angular.io/)
+* [Codelyzer(代码分析)](https://github.com/mgechev/codelyzer)
+* [Lite-Server(轻量Node服务器)](https://github.com/johnpapa/lite-server)
+
+
+
+**Angular 2 - 组件**
+
+* [Angular Material 2](https://github.com/angular/material2)
+* [Kendo-UI](http://www.telerik.com/kendo-angular-ui/components/)
+* [ng2-bootstrap](http://valor-software.com/ng2-bootstrap/#/)
+* [ngSemantic](https://ng-semantic.herokuapp.com/#/)
+* [ng-lightning](http://ng-lightning.github.io/ng-lightning/#/components)
+* [Onsen UI](https://onsen.io/v2/docs/guide/angular2/)
+
+
+
+**Angular 2 - 跨平台开发**
+
+* [angular-electron(桌面版)](https://github.com/angular/angular-electron)
+* [ionic(mobile app)](http://ionicframework.com/)
+* [nativescript-angular](https://github.com/NativeScript/nativescript-angular)
+* [angular 2 and react native](http://angular.github.io/react-native-renderer/)
+* [universal-windows-app](https://github.com/preboot/angular2-universal-windows-app)
+
+
+
+**Ionic 2 - 中文文章**
+
+* [Ionic 2 i18n 方案设计](https://github.com/semlinker/angular2-ionic2/issues/1)
+* [Ionic 2 多主题、多租户构建方案探索](https://github.com/semlinker/angular2-ionic2/issues/1)
+* [Ionic 2 中如何引入第三方脚本](https://github.com/semlinker/angular2-ionic2/issues/6)
+
+
+
+**Ionic 2 - 优秀博客(英文)**
+
+* [joshmorony - ionic-tutorials](https://www.joshmorony.com/category/ionic-tutorials/)
+
+
+
+
+
+
+
+
+
+
+
