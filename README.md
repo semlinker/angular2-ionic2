@@ -5,14 +5,14 @@
 **Angular 2 - 中文文章**
 
 * [Angular 2 模板语法与常用指令简介](https://github.com/semlinker/angular2-ionic2/issues/2)
+* [Angular 2 属性指令 vs 结构指令](https://github.com/semlinker/angular2-ionic2/issues/11)
 * [Angular 2 Provider](https://github.com/semlinker/angular2-ionic2/issues/8)
 * [Angular 2 Multi Providers](https://github.com/semlinker/angular2-ionic2/issues/5)
 * [如何解决 Angular 2中Token命名冲突](https://github.com/semlinker/angular2-ionic2/issues/3)
 * [Angular 2 forwardRef的作用 ](https://github.com/semlinker/angular2-ionic2/issues/7)
 * [Angular 2 Decorators(装饰器) - part 1](https://github.com/semlinker/angular2-ionic2/issues/9)
+* [Angular 2 Decorators(装饰器) - part 2](https://github.com/semlinker/angular2-ionic2/issues/12)
 * [Angular 2 DI - 控制反转和依赖注入及在Angular 1.x 中的应用](https://github.com/semlinker/angular2-ionic2/issues/10)
-* [Angular 2 属性指令 vs 结构指令](https://github.com/semlinker/angular2-ionic2/issues/11)
-
 
 
 **Angular 2 - 优秀博客(英文)**
@@ -90,8 +90,6 @@
 **Ionic 2 - 优秀博客(英文)**
 
 * [joshmorony - ionic-tutorials](https://www.joshmorony.com/category/ionic-tutorials/)
-
-
 
 
 
