@@ -12,6 +12,8 @@
 * [Angular 2 forwardRef的作用 ](https://github.com/semlinker/angular2-ionic2/issues/7)
 * [Angular 2 Decorators(装饰器) - part 1](https://github.com/semlinker/angular2-ionic2/issues/9)
 * [Angular 2 Decorators(装饰器) - part 2](https://github.com/semlinker/angular2-ionic2/issues/12)
+* [Angular 2 Decorators(装饰器) - part 3](https://github.com/semlinker/angular2-ionic2/issues/13)
+* [Angular 2 @Inject 详解](https://github.com/semlinker/angular2-ionic2/issues/14)
 * [Angular 2 DI - 控制反转和依赖注入及在Angular 1.x 中的应用](https://github.com/semlinker/angular2-ionic2/issues/10)
 
 
