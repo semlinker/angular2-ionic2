@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/tigercosmos/webImg/master/angular-2-ionic-2-home.jpg)
 
-**Angular 2 - 中文文章**
+**Angular 2 - 原创文章**
 
 * [Angular 2 模板语法与常用指令简介](https://github.com/semlinker/angular2-ionic2/issues/2)
 * [Angular 2 属性指令 vs 结构指令](https://github.com/semlinker/angular2-ionic2/issues/11)
