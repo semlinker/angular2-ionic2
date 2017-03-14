@@ -15,6 +15,10 @@
 * [Angular 2 Decorators(装饰器) - part 3](https://github.com/semlinker/angular2-ionic2/issues/13)
 * [Angular 2 @Inject 详解](https://github.com/semlinker/angular2-ionic2/issues/14)
 * [Angular 2 DI - 控制反转和依赖注入及在Angular 1.x 中的应用](https://github.com/semlinker/angular2-ionic2/issues/10)
+* [Angular 2 ElementRef](https://github.com/semlinker/angular2-ionic2/issues/16)
+* [Angular 2 ViewEncapsulation](https://github.com/semlinker/angular2-ionic2/issues/17)
+* [Angular 2 TemplateRef & ViewContainerRef ](https://github.com/semlinker/angular2-ionic2/issues/18)
+* [Angular 2 constructor 与 ngOnInit](https://github.com/semlinker/angular2-ionic2/issues/19)
 
 
 **Angular 2 - 优秀博客(英文)**
