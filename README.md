@@ -69,8 +69,10 @@
   - 涉及指令与组件的区别、指令生命周期钩子的作用及调用顺序、生命周期钩子详解、Angular 2 LifecycleHooks、SimpleChanges 相关接口等
 - [Angular 2 Components Communicate](https://segmentfault.com/a/1190000008959575)
   - 涉及组件通信的常用方式：@Input、@Output、@ViewChild、模板变量、MessageService、Broadcaster (Angular 1.x $rootScope 中 $on、$broadcast ) 和 Pub - Sub 模式、RxJS Subject 存在的问题
-- Angular 2 Component Inheritance (开发中)
-  - 涉及组件继承相关知识
+- [Angular 2 Pass Async Data](https://segmentfault.com/a/1190000008986205)
+  - 涉及父子组件通信时，处理异步输入属性的方案
+- [Angular 2 Component Inheritance](https://segmentfault.com/a/1190000008976996)
+  - 涉及面向对象中类和继承的概念及Angular 2 组件继承的应用及注意事项
 
 **Decorator**
 
@@ -119,15 +121,21 @@
   - 涉及 B/S、URI、MIME、HTTP请求和响应报文、HTTP 请求方法和状态码，并收录了 HTTP 经典教程和相关工具，如 Cookie 与 Session、HTTP 缓存、CORS、HTTP/2、HTTPS及常用的HTTP抓包工具、Chrome相关插件、各平台HTTP包、压力测试工具等
 - [Angular 2 Http Module - XMLHttpRequest](https://segmentfault.com/a/1190000008950789)
   - 涉及 AJAX、XMLHTTP、XMLHttpRequest详解、XMLHttpRequest Level 1、Level 2 详解、XHR 上传、下载数据、XHR 流式传输、XHR 定时轮询和长轮询区别与优缺点、XMLHttpRequest 常用代码片段、常见问题等
-- Angular 2 Http Module - HttpModule (未完成)
+- [Angular 4.x HttpModule 脑图(思维导图)](https://juejin.im/entry/58ea34eda22b9d0058a59836/detail)
+- [Angular 4.x HttpModule Reveal](https://segmentfault.com/a/1190000009028150)
+  - 涉及 HTTP 协议、HTTP 请求报文、HTTP 响应报文、HttpModule Request、Response、RequestOptions、ResponseOptions、XHRBackend 对象等
 - Angular 2 Http Interceptor (未完成)
 
 **Form**
 
-- Angular 2 Template Driven Forms (未完成)
-- Angular 2 Template Reactive Forms (未完成)
-- Angular 2 Custom Form Controls (未完成)
-- Angular 2 Custom Validators (未完成)
+- [Angular 4.x Template Driven Forms](https://segmentfault.com/a/1190000009037539) 
+  - 涉及 ngModel、[ngModel]、[(ngModel)]、ngModelGroup、Template-Driven error validation
+- [Angular 4.x Reactive Forms](https://segmentfault.com/a/1190000009041192)
+  - 涉及 FormControl、FormGroup、Reactive Submit、Reactive Forms error validation、FormBuilder
+- [Angular 4.x 基于AbstractControl自定义表单验证](https://segmentfault.com/a/1190000009045615)
+  - 涉及 FormGroup、FormBuilder与FormGroup源码、AbstractControl、自定义验证规则等
+- Angular 4.x Custom Form Controls (未完成)
+- Angular 4.x Custom Validators (未完成)
 
 **Compiler**
 
