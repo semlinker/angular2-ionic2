@@ -75,6 +75,8 @@
   - 涉及父子组件通信时，处理异步输入属性的方案
 - [Angular 4.x Component Inheritance](https://segmentfault.com/a/1190000008976996)
   - 涉及面向对象中类和继承的概念及Angular 4.x 组件继承的应用及注意事项
+- [Angular 4.x Dynamically Creating Components](https://segmentfault.com/a/1190000009175508)
+  - 涉及 Angular 中如何动态创建组件及介绍 `<ng-container>` 指令的作用
 
 ### Decorator(装饰器)
 
@@ -106,9 +108,10 @@
 
 ### Dependency Injection(依赖注入)
 
-- [Angular 4.x DI - IoC & DI - 1](https://segmentfault.com/a/1190000008626680)
-  - 涉及 IoC 和 DI、DI 在 angular 1.x 中的应用、内部工作原理及存在的问题等
-- Angular 4.x DI - 2 (未完成)
+- [Angular 4.x IoC & DI](https://segmentfault.com/a/1190000008626680)
+  - 涉及 IoC 和 DI、DI 在 AngularJS 1.x 中的应用、内部工作原理及存在的问题等
+- [Angular 4.x Injector](https://segmentfault.com/a/1190000009283057)
+  - 涉及依赖注入的概念及Angular 4.x 注入器的内部实现
 
 ### Change Detection(变化检测)
 
@@ -144,11 +147,26 @@
   - 涉及 FormControl 和 FormGroup 类 patchValue() 和 setValue() 方法的使用和区别
 - [Angular 4.x ngModel 双向绑定原理揭秘](https://segmentfault.com/a/1190000009126012)
   - 涉及 ngModel 使用示例(单向绑定、双向绑定、ngModelOptions、disabled等)及ngModel 双向绑定实现原理
+- [Angular 4.x Creating Dynamic Form](https://segmentfault.com/a/1190000009186703)
+  - 涉及动态创建表单的相关内容
+
+### Router
+
+- [Angular 4.x 路由快速入门](https://segmentfault.com/a/1190000009265310)
+  - 涉及路由配置、动态路由、子路由、routerLink、routerLinkActive 指令及 Router API。
+
+
+- [Angular 4.x LocationStrategy](https://segmentfault.com/a/1190000009238481)
+  - 涉及 History 对象、Hash 模式和 HTML 5模式及 Angular 中的HashLocationStrategy 和 PathLocationStrategy 策略。
+- [Angular 4.x Router Link Directives](https://segmentfault.com/a/1190000009255145)
+  - 涉及 Angular 4.x Router 中 RouterLink、RouterLinkWithHref 及 RouterLinkActive 指令的相关内容
 
 ### Events
 
 - [Angular 4.x Events Bubbling](https://segmentfault.com/a/1190000009149495)
   - 涉及 Angular 4.x 中事件冒泡机制及介绍如何基于 Angular 指令系统，实现阻止冒泡指令
+- [Angular 4.x  EventManager & Custom EventManagerPlugin](https://segmentfault.com/a/1190000009156250)
+  - 涉及 Angular 4.x 中 EventManager (事件管理器) 工作原理及介绍如何自定义 EventManagerPlugin 插件
 
 ### Compiler(编译器)
 
