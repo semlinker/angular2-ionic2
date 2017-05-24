@@ -67,8 +67,16 @@
   - 涉及模板语法、常用指令简介及 NgStyle 指令解析、*ngFor trackBy 应用等
 - [Angular 4.x Directive](https://segmentfault.com/a/1190000008626070)
   - 涉及指令分类、Angular 4.x 内置属性指令、结构指令、`*directive` 结构指令语法糖、自定义属性指令、结构指令等
+- [Angular 2.x 结构指令](https://segmentfault.com/a/1190000009307714)
+  - 涉及结构指令定义、`*` 号语法及具体应用示例
 - [Angular 4.x Directive Lifecycle](https://segmentfault.com/a/1190000008716308)
   - 涉及指令与组件的区别、指令生命周期钩子的作用及调用顺序、生命周期钩子详解、Angular 4.x LifecycleHooks、SimpleChanges 相关接口等
+- [Angular 4.x NgIf](https://segmentfault.com/a/1190000009499160)
+  - 涉及 NgIf 指令作用、语法、基础用法及 NgIf 指令源码分析
+- [Angular 4.x NgForOf](https://segmentfault.com/a/1190000009536294)
+  - 涉及 NgForOf 指令作用、语法、基础用法及 NgForOf 指令源码分析
+- [Angular 4.x NgTemplateOutlet](https://segmentfault.com/a/1190000009530554)
+  - 涉及 NgTemplateOutlet 指令作用、语法、基础用法及 NgTemplateOutlet 指令源码分析
 - [Angular 4.x Components Communicate](https://segmentfault.com/a/1190000008959575)
   - 涉及组件通信的常用方式：@Input、@Output、@ViewChild、模板变量、MessageService、Broadcaster (Angular 1.x $rootScope 中 $on、$broadcast ) 和 Pub - Sub 模式、RxJS Subject 存在的问题
 - [Angular 4.x Pass Async Data](https://segmentfault.com/a/1190000008986205)
@@ -202,6 +210,8 @@
   - 涉及 constructor、ngOnInit、constructor & ngOnInit 应用场景等
 - [Angular 4.x DomSanitizer](https://segmentfault.com/a/1190000008809095)
   - 涉及 Cross-site scripting、Angular 4.x XSS 防护、DomSanitizer、自定义 keepHtml 指令等
+- [Angular NgModule 作用域相关问题](https://segmentfault.com/a/1190000009396664)
+  - 涉及 Angular NgModule 作用域的相关问题
   
 ### Angular 2 - 优秀博客(英文)
 
