@@ -116,6 +116,22 @@
 
 ### Dependency Injection(依赖注入)
 
+- [Angular 4 依赖注入教程之一 依赖注入简介](https://segmentfault.com/a/1190000009612113)
+  - 涉及依赖注入的基础知识及在 Angular 中的应用
+- [Angular 4 依赖注入教程之二 组件服务注入](https://segmentfault.com/a/1190000009631138)
+  - 涉及 Angular 服务的定义及组件中服务的注入方式
+- [Angular 4 依赖注入教程之三 ClassProvider的使用](https://segmentfault.com/a/1190000009632566)
+  - 涉及 Angular 中 ClassProvider 的基础知识及使用
+- [Angular 4 依赖注入教程之四 FactoryProvider的使用](https://segmentfault.com/a/1190000009642753)
+  - 涉及 Angular 中 FactoryProvider 的基础知识及使用
+- [Angular 4 依赖注入教程之五 FactoryProvider配置依赖对象](https://segmentfault.com/a/1190000009643271)
+  - 涉及 Angular 中 FactoryProvider 如何配置依赖对象
+- [Angular 4 依赖注入教程之六 Injectable 装饰器](https://segmentfault.com/a/1190000009645391)
+  - 涉及 Angular 中 Injectable 装饰器的作用
+- [Angular 4 依赖注入教程之七 ValueProvider的使用](https://segmentfault.com/a/1190000009646551)
+  - 涉及 Angular 中 ValueProvider 的基础知识及使用
+- [Angular 4 依赖注入教程之八 InjectToken的使用](https://segmentfault.com/a/1190000009648572)
+  - 涉及 Angular 中 InjectToken 的基础知识及作用
 - [Angular 4.x IoC & DI](https://segmentfault.com/a/1190000008626680)
   - 涉及 IoC 和 DI、DI 在 AngularJS 1.x 中的应用、内部工作原理及存在的问题等
 - [Angular 4.x Injector](https://segmentfault.com/a/1190000009283057)
