@@ -2,6 +2,17 @@
 
 ![](https://raw.githubusercontent.com/tigercosmos/webImg/master/angular-2-ionic-2-home.jpg)
 
+### Angular 4.x 快速入门
+
+- [Angular 4 快速入门](https://segmentfault.com/a/1190000009733649)
+  - 涉及 Angular 简介、环境搭建、插件表达式、自定义组件、表单模块、Http 模块等
+- [Angular 4 指令快速入门](https://segmentfault.com/a/1190000009674089)
+  - 涉及如何创建指令、定义输入属性、事件处理、如何获取宿主元素属性值、如何创建结构指令等
+- [Angular 4 表单快速入门](https://segmentfault.com/a/1190000009652980)
+  - 涉及如何创建表单、表单验证、表单控件状态、单选控件、多选控件的使用等
+- [Angular 4.x 路由快速入门](https://segmentfault.com/a/1190000009265310)
+  - 涉及路由简介、如何配置路由、动态路由、子路由、路由指令及路由相关 API 等
+  
 ### Angular 4.x 组件学习线路 (仅供参考)
 
 对于刚从 Angular 1.x 转到 Angular 4.x 的用户，建议先阅读一下 `Angular 4.x vs Angular 1.x` 章节 (目前还不够完善)。下面提供的学习线路仅供参考，读者可以自行选读。该学习线路基本包含 Angular 4.x 组件相关知识，如果有遗漏，欢迎大家指出。(友情提示：初学者不用完整了解每个部分的内容，特别是设计源码分析的部分，只需了解基本用法，然后多实践哈)
@@ -228,6 +239,8 @@
   - 涉及 Cross-site scripting、Angular 4.x XSS 防护、DomSanitizer、自定义 keepHtml 指令等
 - [Angular NgModule 作用域相关问题](https://segmentfault.com/a/1190000009396664)
   - 涉及 Angular NgModule 作用域的相关问题
+- [Angular CLI 终极指南](https://segmentfault.com/a/1190000009771946)
+  - 涉及 Angular CLI 简介及详细介绍了 Angular CLI 支持的功能，如新建项目、单元测试、项目构建等
   
 ### Angular 2 - 优秀博客(英文)
 
