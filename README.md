@@ -164,7 +164,12 @@
 - [Angular 4.x HttpModule 脑图(思维导图)](https://juejin.im/entry/58ea34eda22b9d0058a59836/detail)
 - [Angular 4.x HttpModule Reveal(源码揭秘)](https://segmentfault.com/a/1190000009028150)
   - 涉及 HTTP 协议、HTTP 请求报文、HTTP 响应报文、HttpModule Request、Response、RequestOptions、ResponseOptions、XHRBackend 对象等
-- Angular 4.x Http Interceptor (未完成)
+- [使用 RxJS 处理多个 Http 请求](https://segmentfault.com/a/1190000010088631)
+  - 涉及使用 RxJS mergeMap 和 forkJoin 操作符处理多个 Http 请求
+- [激动人心的 Angular HttpClient](https://segmentfault.com/a/1190000010116848)
+  - 涉及 Angular 4.3 版本中 HttpClient 的主要特性，如默认 JOSN 解析、支持拦截器和进度事件等
+- [Angular HTTP Client 快速入门](https://segmentfault.com/a/1190000010259536)
+  - 涉及 Angular 4.3 版本中 HttpClient 的使用示例，如发送 Get 请求、设置查询参数、设置请求头、发送其它 Http 请求、并行发送多个请求、顺序发送 Http 请求、异常处理、拦截器和进度事件等
 
 ### Form(表单)
 
@@ -241,6 +246,14 @@
   - 涉及 Angular NgModule 作用域的相关问题
 - [Angular CLI 终极指南](https://segmentfault.com/a/1190000009771946)
   - 涉及 Angular CLI 简介及详细介绍了 Angular CLI 支持的功能，如新建项目、单元测试、项目构建等
+- [ng-conf-2017 - Angular Form Validation](https://segmentfault.com/a/1190000009824380)
+  - 涉及表单验证概述、同步验证、异步验证及表单验证执行流程等
+- [Angular 中何时取消订阅](https://segmentfault.com/a/1190000010104703)
+  - 涉及 Angular 需手动释放资源和无需手动释放资源的场景
+- [Angular Renderer (渲染器)](https://segmentfault.com/a/1190000010326100)
+  - 涉及 Angular 中平台和渲染器的概念、Angular 渲染器工作原理、DefaultDomRenderer2 及 DomRendererFactory2 内部应用
+- [TypeScript 资源集](https://segmentfault.com/a/1190000010130073)
+  - 涉及 TypeScript 技术选型、教程、项目实战、中英文视频教程和中英文书籍等
   
 ### Angular 2 - 优秀博客(英文)
 
